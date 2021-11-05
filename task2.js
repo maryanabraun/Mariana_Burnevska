@@ -10,7 +10,7 @@ function first_non_repeating_letter(str){
       if (lowerstr.indexOf(c) === i & lowerstr.indexOf(c, i+1 )=== -1)
       {return "First non-repeating letter is '"+ str[i] + "'.";}
     }
-    return null;
+    return " ";
 }
 
 console.log(first_non_repeating_letter(str));
